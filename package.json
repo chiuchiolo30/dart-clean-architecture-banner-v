@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "Dynamic banner image generator for VS Code Marketplace extension",
   "main": "api/index.js",
-  "scripts": {
-    "dev": "node api/index.js"
-  },
   "dependencies": {
-    "@sparticuz/chromium": "^123.0.1",
-    "puppeteer-core": "^22.6.1"
+    "satori": "^0.10.13",
+    "sharp": "^0.33.3"
   }
 }
